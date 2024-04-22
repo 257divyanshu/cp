@@ -1,13 +1,103 @@
-// Watermelon
-// https://codeforces.com/problemset/problem/4/A 
 
+
+// PERMUTATIONS WITH ARRAY
+// https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/R
+// one method is to use arrays :
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     vector<int> vect1(0);
+//     vector<int> vect2(0);
+//     for (int i = 1; i <= n; i++)
+//     {
+//         int num;
+//         cin >> num;
+//         vect1.push_back(num);
+//     };
+//     for (int i = 1; i <= n; i++)
+//     {
+//         int num;
+//         cin >> num;
+//         vect2.push_back(num);
+//     };
+//     sort(vect1.begin(), vect1.end());
+//     sort(vect2.begin(), vect2.end());
+//     if (vect1 == vect2)
+//     {
+//         cout << "yes" << endl;
+//     }
+//     else
+//     {
+//         cout << "no" << endl;
+//     };
+//     return 0;
+// };
+// second method is to use maps
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     map<int, int> map1;
+//     map<int, int> map2;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         int num;
+//         cin >> num;
+//         map1[num]++;
+//     };
+//     for (int i = 1; i <= n; i++)
+//     {
+//         int num;
+//         cin >> num;
+//         map2[num]++;
+//     };
+//     if (map1 == map2)
+//     {
+//         cout << "yes" << endl;
+//     }
+//     else
+//     {
+//         cout << "no" << endl;
+//     };
+//     return 0;
+// };
+
+// FIBONACCI
+// https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/O
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     long long fibo[n];
+//     fibo[0] = 0;
+//     if (n != 1)
+//     {
+//         fibo[1] = 1;
+//     };
+//     for (int i = 2; i < n; i++)
+//     {
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//     };
+//     cout << fibo[n - 1] << endl;
+//     return 0;
+// };
+
+// Watermelon
+// https://codeforces.com/problemset/problem/4/A
 
 // Ali Baba and The Puzzles
 // https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/D
 // #include <bits/stdc++.h>
 // using namespace std;
 // int main()
-// {   
+// {
 //     long long a,b,c,d;
 //     cin>>a>>b>>c>>d;
 //     string output = "NO";
@@ -26,7 +116,7 @@
 // #include <bits/stdc++.h>
 // using namespace std;
 // int main()
-// {   
+// {
 //     long long a,b,k;
 //     cin>>a>>b>>k;
 //     if(a%k==0)
@@ -59,7 +149,7 @@
 // #include <bits/stdc++.h>
 // using namespace std;
 // int main()
-// {   
+// {
 //     int a,b,c;
 //     cin>>a>>b>>c;
 //     int maxi = a;

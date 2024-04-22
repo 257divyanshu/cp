@@ -12,3 +12,5 @@
 // N%0 causes problems
 
 // use the max and min functions for two elements only max(a,b)
+
+// time complexity of hashing an element in map is O(1) (average case) (worst case can be O(n))
