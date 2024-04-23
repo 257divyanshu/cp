@@ -14,3 +14,5 @@
 // use the max and min functions for two elements only max(a,b)
 
 // time complexity of hashing an element in map is O(1) (average case) (worst case can be O(n))
+
+// time complexity for insertin an element in a set is O(logn) where n is the number of elements already present in the set

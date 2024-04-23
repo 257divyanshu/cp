@@ -1,4 +1,76 @@
+// ------
+// WEEK 4
+// ------
 
+// THREE NUMBERS
+// https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int max, sum;
+//     cin >> max;
+//     cin >> sum;
+//     int count = 0;
+//     for (int i = 0; i <= max; i++)
+//     {
+//         for (int j = 0; j <= max; j++)
+//         {
+//             if (i + j <= sum)
+//             {
+//                 if ((sum - j - i) <= max)
+//                 {
+//                     count++;
+//                 };
+//             };
+//         };
+//     };
+//     cout << count << endl;
+//     return 0;
+// };
+
+// BEAUTIFUL YEAR
+// https://codeforces.com/problemset/problem/271/A
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     int switchint = 1;
+//     n++;
+//     while (switchint)
+//     {
+//         set<int> set1;
+//         int m = n;
+//         while (m != 0)
+//         {
+//             set1.insert(m % 10);
+//             m /= 10;
+//         };
+//         if (set1.size() == 4)
+//         {
+//             switchint = 0;
+//             break;
+//         }
+//         else
+//         {
+//             n++;
+//         };
+//     };
+//     cout << n << endl;
+//     return 0;
+// };
+
+// ------
+// WEEK 3
+// ------
+
+// RVISION REMAINING
+
+// ------
+// WEEK 2
+// ------
 
 // WATERMELON
 // https://codeforces.com/problemset/problem/4/A
@@ -50,7 +122,7 @@
 // };
 
 // DIGITS SUMMATION
-// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F 
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
 // #include <iostream>
 // using namespace std;
 // int main()
