@@ -2,6 +2,56 @@
 // WEEK 4
 // ------
 
+// EVENT ARRAY
+// https://codeforces.com/problemset/problem/1367/B
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int t;
+//     cin >> t;
+//     for (int i = 0; i < t; i++)
+//     {
+//         int n;
+//         cin >> n;
+//         int arr[n];
+//         int ei = 0, oi = 0, ee = 0, oe = 0, sc = 0;
+//         for (int j = 0; j < n; j++)
+//         {
+//             cin >> arr[j];
+//             if (j % 2 == 0)
+//             {
+//                 ei++;
+//             }
+//             else
+//             {
+//                 oi++;
+//             };
+//             if (arr[j] % 2 == 0)
+//             {
+//                 ee++;
+//             }
+//             else
+//             {
+//                 oe++;
+//             };
+//             if (j % 2 != arr[j] % 2)
+//             {
+//                 sc++;
+//             };
+//         };
+//         if (ee != ei || oe != oi)
+//         {
+//             cout << -1 << endl;
+//         }
+//         else
+//         {
+//             cout << sc / 2 << endl;
+//         };
+//     };
+//     return 0;
+// };
+
 // THREE NUMBERS
 // https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
 // #include <bits/stdc++.h>

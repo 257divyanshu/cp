@@ -1,15 +1,2 @@
-08 April 2024 : 🟩 CodeForces Round 938 (Div 8)
-10 April 2024 : 🟩 CodeChef Starters 129
-11 Apirl 2024 : 🟩 Upsolved a question, Watched a TLE video, Solved 3 non-scorable problems
-12 April 2024 : 🟥
-13 April 2024 : 🟥
-14 April 2024 : 🟥
-15 April 2024 : 🟥
-16 April 2024 : 🟩 finished 2 pending lectures
-17 April 2024 : 🟥
-18 April 2024 : 🟩 Attended a contest
-19 April 2024 : 🟩 solved 2 non scorable problems 
-20 April 2024 : 🟩 solved 2 non scorable problems and 2 scorable problems 
-21 April 2024 : 🟩 watch 30 min video
-22 April 2024 : 🟩 solve some problems
-23 April 2024 : 🟩 solve 3 CP problems
+26 April : debugged my code and got it accepted
+           tried a new question, but failed, watched the vedio

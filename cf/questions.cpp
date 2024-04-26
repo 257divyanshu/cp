@@ -1,4 +1,103 @@
 
+// MARK THE DUST SWEEPER
+// https://codeforces.com/problemset/problem/1705/B
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int t;
+//     cin >> t;
+//     for (int tc = 0; tc < t; tc++)
+//     {
+//         int n;
+//         cin>>n;
+//         vector<int> vect(n);
+//         for(int i = 0; i<n; i++)
+//         {
+//             cin>>vect[i];
+//         };
+//         int zeroCount = 0;
+//         int flag = 0;
+//         long long sum = 0;
+//         for(int i = 0; i<n-1; i++)
+//         {
+//             sum+=vect[i];
+//             if(vect[i]>0){
+//                 flag = 1;
+//             };
+//             if(vect[i]==0 && flag==1)
+//             {
+//                 zeroCount++;
+//             };
+//         };
+//         cout<<sum+zeroCount<<endl;
+//     };
+// };
+
+// EVERYONE LOVES TO SLEEP
+// https://codeforces.com/contest/1714/submission/258189083
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int t;
+//     cin>>t;
+//     for(int i = 0; i<t; i++)
+//     {
+//         // cout<<"test case number "<<i+1<<endl;
+//         int n;
+//         cin>>n;
+//         int wh, wm;
+//         cin>>wh>>wm;
+//         // cout<<"wh is "<<wh<<" wm is "<<wm<<endl;
+//         vector<pair<int,int>> resultVector;
+//         for(int j = 0; j<n; j++)
+//         {
+//         // cout<<"timer "<<j+1<<endl;
+//             int gh, gm;
+//             cin>>gh>>gm;
+//             pair<int,int> p1;
+//             p1.first = (gh-wh+24)%24;
+//             p1.second = (gm-wm+60)%60;
+//             if(gm<wm)
+//             {
+//                 p1.first--;
+//             };
+//             p1.first = (p1.first+24)%24;
+//             p1.second = (p1.second+60)%60;
+//             // cout<<"pushing "<<p1.first<<" "<<p1.second<<endl;
+//             resultVector.push_back(p1);
+//         };
+//         auto it = min_element(resultVector.begin(),resultVector.end());
+//         cout<<it->first<<" "<<it->second<<endl;
+//     };
+//     return 0;
+// };
+
+// THREE NUMBERS
+// https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int k, s;
+//     cin>>k>>s;
+//     int count = 0;
+//     for(int i = 0; i<=k; i++)
+//     {
+//         for(int j = 0; j<=k; j++)
+//         {
+//             if(i+j<=s)
+//             {
+//                 if(s-i-j<=k)
+//                 {
+//                     count++;
+//                 };
+//             };
+//         };
+//     };
+//     cout<<count<<endl;
+// };
 
 // PERMUTATIONS WITH ARRAY
 // https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/R
@@ -91,6 +190,22 @@
 
 // Watermelon
 // https://codeforces.com/problemset/problem/4/A
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     if(n==2 || n%2==1)
+//     {
+//         cout<<"NO"<<endl;
+//     }
+//     else
+//     {
+//         cout<<"YES"<<endl;
+//     };
+//     return 0;
+// };
 
 // Ali Baba and The Puzzles
 // https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/D
@@ -108,39 +223,6 @@
 //     if(a*b-c==d) output = "YES";
 //     if(a*b+c==d) output = "YES";
 //     cout<<output<<endl;
-//     return 0;
-// };
-
-// Memo and Momo
-// https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/B
-// #include <bits/stdc++.h>
-// using namespace std;
-// int main()
-// {
-//     long long a,b,k;
-//     cin>>a>>b>>k;
-//     if(a%k==0)
-//     {
-//         if(b%k==0)
-//         {
-//             cout<<"Both"<<endl;
-//         }
-//         else
-//         {
-//             cout<<"Memo"<<endl;
-//         };
-//     }
-//     else
-//     {
-//         if(b%k==0)
-//         {
-//             cout<<"Momo"<<endl;
-//         }
-//         else
-//         {
-//             cout<<"No One"<<endl;
-//         };
-//     };
 //     return 0;
 // };
 
@@ -174,71 +256,6 @@
 //     return 0;
 // };
 
-// Comparison
-// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
-// #include <bits/stdc++.h>
-// using namespace std;
-// int main()
-// {
-//     int a, b;
-//     char c;
-//     cin >> a >> c >> b;
-//     if (c == '<')
-//     {
-//         if (a < b)
-//         {
-//             cout << "Right" << endl;
-//         }
-//         else
-//         {
-//             cout << "Wrong" << endl;
-//         };
-//     }
-//     else if (c == '=')
-//     {
-//         if (a == b)
-//         {
-//             cout << "Right" << endl;
-//         }
-//         else
-//         {
-//             cout << "Wrong" << endl;
-//         };
-//     }
-//     else
-//     {
-//         if (a > b)
-//         {
-//             cout << "Right" << endl;
-//         }
-//         else
-//         {
-//             cout << "Wrong" << endl;
-//         };
-//     };
-//     return 0;
-// };
-
-// The Brothers
-// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int f1,f2,s1,s2;
-//     cin>>s1>>f1>>;
-//     cin>>s2>>f2>>;
-//     if(s1==s2)
-//     {
-//         cout<<"Brothers";
-//     }
-//     else
-//     {
-//         cout<<"Not brothers"
-//     }
-//     return 0;
-// };
-
 // Digits Summation
 // https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
 // #include <iostream>
@@ -251,39 +268,3 @@
 // };
 // problem with the my initial code was I was using int in place of long long
 // moral : read the inputs carefully
-
-// Multiples
-// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
-// #include <iostream>
-// using namespace std;
-// int main() {
-// 	int a, b;
-// 	cin>>a>>b;
-// 	if(a%b==0 || b%a==0)
-// 	{
-// 	    cout<<"Multiples"<<endl;
-// 	}
-// 	else
-// 	{
-// 	    cout<<"No Multiples"<<endl;
-// 	};
-//     return 0;
-// };
-
-// Welcome for you with Conditions
-// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I
-// #include <bits/stdc++.h>
-// using namespace std;
-// int main() {
-// 	int a, b;
-// 	cin>>a>>b;
-// 	if(a>=b)
-// 	{
-// 	    cout<<"Yes"<<endl;
-// 	}
-// 	else
-// 	{
-// 	    cout<<"No"<<endl;
-// 	};
-//     return 0;
-// };
